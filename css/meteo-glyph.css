@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'meteo-glyph';
+  src: url('../fonts/meteo-glyph.eot');
+  src: url('../fonts/meteo-glyph.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/meteo-glyph.woff2') format('woff2'),
+       url('../fonts/meteo-glyph.woff') format('woff'),
+       url('../fonts/meteo-glyph.ttf') format('truetype'),
+       url('../fonts/meteo-glyph.svg#meteo-glyph') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.meteo-glyph {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'meteo-glyph';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.meteo-glyph__north-hurricane:before {
+	content: '\0033';
+}
+
+.meteo-glyph__north-storm:before {
+	content: '\0034';
+}
+
+.meteo-glyph__depression:before {
+	content: '\0031';
+}
+
+
+.meteo-glyph__south-storm:before {
+	content: '\0035';
+}
+
+.meteo-glyph__south-hurricane:before {
+	content: '\0036';
+}
+
+.meteo-glyph__low:before {
+	content: '\0030';
+}
+
+.meteo-glyph__high:before {
+	content: '\0032';
+}
+
+
