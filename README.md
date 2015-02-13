@@ -1,8 +1,9 @@
 # Meteorological.Icons
 Few meteorological web font symbols.
 
-## Usage 
+Read more ![here](https://github.com/NerijusN/Meteorological.Icons/wiki)
 
-Download .zip look into index.html for sample.
+
+
 
 
